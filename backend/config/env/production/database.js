@@ -5,7 +5,7 @@ module.exports = ({ env }) => ({
       host: 'localhost',
       port: 3306,
       database: 'strapi',
-      user: 'timur@localhost',
+      user: 'timur',
       password: 'XSW@zaq1',
     },
     useNullAsDefault: true,
