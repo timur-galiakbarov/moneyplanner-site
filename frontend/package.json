@@ -5,9 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start ",
     "lint": "next lint",
-    "buildAndStartProd": "NODE_ENV=production next build && next start"
+    "buildAndStartProd": "NODE_ENV=production next build && next start -p 8080"
   },
   "dependencies": {
     "@formatjs/intl-localematcher": "^0.5.4",
